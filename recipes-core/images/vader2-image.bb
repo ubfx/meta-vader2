@@ -3,6 +3,9 @@ SUMMARY = "Vader2"
 LICENSE = "MIT"
 inherit core-image
 
+MACHINE = "u96v2-sbc"
+DISTRO = "vader2"
+
 PREFERRED_PROVIDER_virtual/boot-bin = "xilinx-bootbin"
 
 PREFERRED_RPROVIDER_virtual/qemu-native = "qemu-xilinx-native"
