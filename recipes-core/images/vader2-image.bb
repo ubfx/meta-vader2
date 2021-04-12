@@ -3,8 +3,8 @@ SUMMARY = "Vader2"
 LICENSE = "MIT"
 inherit core-image
 
-MACHINE = "u96v2-sbc"
 DISTRO = "vader2"
+MACHINE = "u96v2-sbc"
 
 PREFERRED_PROVIDER_virtual/boot-bin = "xilinx-bootbin"
 
