@@ -4,7 +4,7 @@ LICENSE = "MIT"
 inherit core-image
 
 DISTRO = "vader2"
-MACHINE = "u96v2-sbc"
+MACHINE = "u96v2-vader2"
 
 PREFERRED_PROVIDER_virtual/boot-bin = "xilinx-bootbin"
 
