@@ -1,7 +1,0 @@
-#!/bin/sh
-
-modprobe wilc-sdio
-sleep 3
-rfkill unblock 0
-sleep 1
-ifup wlan0

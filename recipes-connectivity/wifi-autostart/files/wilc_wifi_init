@@ -1,0 +1,8 @@
+#!/bin/sh
+
+modprobe wilc-sdio
+rfkill unblock 0
+rfkill unblock 1
+#this is a hack but I don't know a better way
+sleep 10
+ifup wlan0
