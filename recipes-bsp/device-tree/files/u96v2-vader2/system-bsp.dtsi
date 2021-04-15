@@ -89,3 +89,8 @@
    // Remove TI child node from U96 V1 DT
    /delete-node/wifi@2;
 };
+
+&sdhci0 {
+   no-1-8-v;
+   disable-wp;
+};
