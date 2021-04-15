@@ -10,3 +10,5 @@ RDEPENDS_vader2-image += "xilinx-bootbin"
 
 IMAGE_INSTALL_remove = "avahi"
 PACKAGECONFIG_remove = "avahi"
+
+ESW_VER = "2020.2"
