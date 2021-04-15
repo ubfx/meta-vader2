@@ -1,14 +1,10 @@
-FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
+AVNET_FILES = "${THISDIR}/../../../meta-avnet/recipes-bsp/device-tree/files/u96v2-sbc"
+
+FILESEXTRAPATHS_prepend := "${THISDIR}/files:${AVNET_FILES}:"
 
 SRC_URI += "file://system-bsp.dtsi \
         file://system-conf.dtsi \
+        file://openamp.dtsi \
 "
 
 DT_INCLUDE += "${THISDIR}/files "
-
-SRC_URI_append_u96v2-vader2 = " file://openamp.dtsi \
-"
-
-do_configure_append () {
-        echo '#include "system-bsp.dtsi"' >> ${DT_FILES_PATH}/system-top.dts
-}
