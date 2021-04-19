@@ -1,0 +1,12 @@
+/ {
+   reserved-memory {
+      #address-cells = <1>;
+      #size-cells = <1>;
+      ranges;
+  
+      buffer@0x70000000 {
+         no-map;
+         reg = <0x70000000 0x00010000>;
+      };
+   };
+};
