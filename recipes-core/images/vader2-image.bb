@@ -26,4 +26,4 @@ IMAGE_INSTALL += "packagegroup-distro-base \
     bash \
 "
 
-PACKAGE_EXCLUDE += "avahi gtk+3 iw kernel-module-mali libmali-xlnx libx11 libxrandr mobile-broadband-provider-info pango xorgproto"
+PACKAGE_EXCLUDE += "avahi gtk+3 kernel-module-mali libmali-xlnx libx11 libxrandr mobile-broadband-provider-info pango xorgproto"
