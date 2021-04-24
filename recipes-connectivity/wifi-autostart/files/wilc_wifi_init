@@ -5,9 +5,5 @@ rfkill unblock 0
 rfkill unblock 1
 sleep 3
 ifup wlan0
-sleep 3
-ifup wlan0
-sleep 3
-ifup wlan0
-sleep 3
+ifdown wlan0
 ifup wlan0
