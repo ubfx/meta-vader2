@@ -7,7 +7,7 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 inherit update-rc.d
 
 INITSCRIPT_NAME = "wilc_wifi"
-INITSCRIPT_PARAMS = "start 90 5 ."
+INITSCRIPT_PARAMS = "start 00 2 3 4 5 ."
 
 SRC_URI = "file://wilc_wifi_init \
 "
