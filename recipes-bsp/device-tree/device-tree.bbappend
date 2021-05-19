@@ -4,6 +4,7 @@
 FILESEXTRAPATHS_prepend := "${THISDIR}/files:"
 
 SRC_URI += "file://vader2.dtsi \
+        file://system-conf.dtsi \
 "
 
 DT_INCLUDE += "${THISDIR}/files "

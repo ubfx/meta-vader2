@@ -1,0 +1,11 @@
+/ {
+    reserved-memory {
+        #address-cells = <2>;
+        #size-cells = <2>;
+        ranges;
+
+        imgbuf0 {
+            size = <0x0 0x50000000>;
+        };
+    };
+};
