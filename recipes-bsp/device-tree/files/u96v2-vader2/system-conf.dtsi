@@ -5,7 +5,7 @@
         ranges;
 
         imgbuf0 {
-            size = <0x0 0x50000000>;
+            size = <0x0 0x60000000>;
         };
     };
 };
